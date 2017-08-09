@@ -1,4 +1,5 @@
 ﻿using CroydonPestControl.Infrastructure.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace CroydonPestControl.Infrastructure.Interfaces
@@ -7,5 +8,6 @@ namespace CroydonPestControl.Infrastructure.Interfaces
     {
         Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest addBlockCycleRequest);
         Task<bool> AddBlocksAsync(string requestXml);
+        Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync();
     }
 }

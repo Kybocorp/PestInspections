@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using CroydonPestControl.AppServices.Models;
 using CroydonPestControl.Infrastructure.Interfaces;
 using AutoMapper;
+using System.Collections.Generic;
 
 namespace CroydonPestControl.AppServices
 {
@@ -27,6 +28,9 @@ namespace CroydonPestControl.AppServices
             return await _blockCycleRepository.AddBlocksAsync(requestXml);
         }
 
-       
+        public async Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync()
+        {
+            return _mapper.Map<IEnumerable<BlockCycle>>(await _blockCycleRepository.GetBlockCyclesAsync());
+        }
     }
 }

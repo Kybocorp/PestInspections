@@ -24,6 +24,19 @@ namespace CroydonPestControl.API.Controllers
             _logger = logger;
             _mapper = mapper;
         }
+
+        /// <summary>
+        /// Get All BlockCycles
+        /// </summary>
+        /// <returns>List of BlockCycles</returns>
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            _logger.LogInformation("Calling Get from BlockCycleController");
+            var response = await _blockCycleAppService.GetBlockCyclesAsync();
+            if (response == null) return NotFound();
+            return Ok(response);
+        }
         /// <summary>
         /// Add BlockCycle
         /// </summary>
