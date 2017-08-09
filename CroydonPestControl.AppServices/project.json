@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "AutoMapper": "6.0.2",
+    "AutoMapper.Extensions.Microsoft.DependencyInjection": "2.0.1",
+    "CroydonPestControl.Infrastructure": "1.0.0-*",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

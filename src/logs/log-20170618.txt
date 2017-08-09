@@ -1,0 +1,233 @@
+2017-06-18 04:02:20.823 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-18 04:02:20.823 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-18 04:02:21.015 +01:00 [Information] Request finished in 220.2436ms 200 
+2017-06-18 04:02:21.405 +01:00 [Information] Request finished in 643.6917ms 404 
+2017-06-18 04:02:28.328 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui  
+2017-06-18 04:02:28.339 +01:00 [Information] Request finished in 10.1643ms 302 
+2017-06-18 04:02:28.347 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-18 04:02:28.361 +01:00 [Information] Request finished in 14.6192ms 200 text/html
+2017-06-18 04:02:28.373 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-18 04:02:28.376 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-18 04:02:28.407 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-18 04:02:28.408 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-18 04:02:28.432 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-18 04:02:28.433 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-18 04:02:28.485 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-18 04:02:28.643 +01:00 [Information] Request finished in 213.0856ms 304 text/css
+2017-06-18 04:02:28.645 +01:00 [Information] Request finished in 204.7142ms 304 application/javascript
+2017-06-18 04:02:28.674 +01:00 [Information] Request finished in 164.3242ms 304 text/css
+2017-06-18 04:02:28.679 +01:00 [Information] Request finished in 188.2988ms 304 text/css
+2017-06-18 04:02:28.711 +01:00 [Information] Request finished in 320.606ms 304 application/javascript
+2017-06-18 04:02:28.715 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-18 04:02:28.715 +01:00 [Information] Request finished in 103.1816ms 304 application/javascript
+2017-06-18 04:02:28.738 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-18 04:02:28.739 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-18 04:02:28.781 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-18 04:02:28.781 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-18 04:02:28.804 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-18 04:02:28.809 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-18 04:02:28.830 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-18 04:02:28.874 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-18 04:02:28.895 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-18 04:02:28.897 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-18 04:02:28.923 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-18 04:02:28.925 +01:00 [Information] Request finished in 229.1053ms 304 application/javascript
+2017-06-18 04:02:28.976 +01:00 [Information] Request finished in 210.1278ms 304 application/javascript
+2017-06-18 04:02:28.977 +01:00 [Information] Request finished in 163.5489ms 304 application/javascript
+2017-06-18 04:02:29.007 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-18 04:02:29.032 +01:00 [Information] Request finished in 210.125ms 304 application/javascript
+2017-06-18 04:02:29.032 +01:00 [Information] Request finished in 317.7135ms 304 application/javascript
+2017-06-18 04:02:29.035 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-18 04:02:29.037 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-18 04:02:29.060 +01:00 [Information] Request finished in 205.5656ms 304 application/javascript
+2017-06-18 04:02:29.085 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-18 04:02:29.086 +01:00 [Information] Request finished in 134.3692ms 304 application/javascript
+2017-06-18 04:02:29.089 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-18 04:02:29.089 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-18 04:02:29.112 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-18 04:02:29.135 +01:00 [Information] Request finished in 129.8751ms 304 application/javascript
+2017-06-18 04:02:29.139 +01:00 [Information] Request finished in 129.0522ms 304 application/javascript
+2017-06-18 04:02:29.140 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-18 04:02:29.144 +01:00 [Information] Request finished in 105.4952ms 304 application/javascript
+2017-06-18 04:02:29.146 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-18 04:02:29.149 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-18 04:02:29.151 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-18 04:02:29.176 +01:00 [Information] Request finished in 115.9002ms 304 application/javascript
+2017-06-18 04:02:29.176 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-18 04:02:29.180 +01:00 [Information] Request finished in 29.7362ms 304 image/png
+2017-06-18 04:02:29.182 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-18 04:02:29.184 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-18 04:02:29.187 +01:00 [Information] Request finished in 4.8514ms 304 text/css
+2017-06-18 04:02:29.201 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-18 04:02:29.215 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:29.218 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:29.221 +01:00 [Information] Request finished in 6.509ms 304 image/png
+2017-06-18 04:02:29.583 +01:00 [Information] Request finished in 381.8895ms 200 application/json
+2017-06-18 04:02:32.323 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:32.327 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:32.333 +01:00 [Information] Request finished in 11.2709ms 304 image/png
+2017-06-18 04:02:38.807 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:38.811 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:38.817 +01:00 [Information] Request finished in 9.8741ms 304 image/png
+2017-06-18 04:02:41.754 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-18 04:02:41.756 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-18 04:02:41.761 +01:00 [Information] Request finished in 7.0814ms 304 image/gif
+2017-06-18 04:02:41.777 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:41.779 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:41.783 +01:00 [Information] Request finished in 6.6303ms 304 image/png
+2017-06-18 04:02:47.627 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:47.631 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:47.637 +01:00 [Information] Request finished in 9.952ms 304 image/png
+2017-06-18 04:02:52.478 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 04:02:52.482 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 04:02:52.487 +01:00 [Information] Request finished in 9.7864ms 304 image/png
+2017-06-18 12:23:39.995 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-18 12:23:39.995 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-18 12:23:40.179 +01:00 [Information] Request finished in 202.0857ms 200 
+2017-06-18 12:23:40.591 +01:00 [Information] Request finished in 640.3173ms 404 
+2017-06-18 12:23:50.160 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui  
+2017-06-18 12:23:50.168 +01:00 [Information] Request finished in 9.3133ms 302 
+2017-06-18 12:23:50.176 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-18 12:23:50.188 +01:00 [Information] Request finished in 12.1214ms 200 text/html
+2017-06-18 12:23:50.216 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-18 12:23:50.240 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-18 12:23:50.260 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-18 12:23:50.260 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-18 12:23:50.284 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-18 12:23:50.288 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-18 12:23:50.332 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-18 12:23:50.405 +01:00 [Information] Request finished in 168.5739ms 304 application/javascript
+2017-06-18 12:23:50.405 +01:00 [Information] Request finished in 145.3854ms 304 application/javascript
+2017-06-18 12:23:50.453 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-18 12:23:50.453 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-18 12:23:50.481 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-18 12:23:50.481 +01:00 [Information] Request finished in 288.3883ms 304 text/css
+2017-06-18 12:23:50.505 +01:00 [Information] Request finished in 219.5251ms 304 text/css
+2017-06-18 12:23:50.545 +01:00 [Information] Request finished in 215.2867ms 304 application/javascript
+2017-06-18 12:23:50.549 +01:00 [Information] Request finished in 306.6208ms 304 text/css
+2017-06-18 12:23:50.573 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-18 12:23:50.593 +01:00 [Information] Request finished in 112.5771ms 304 application/javascript
+2017-06-18 12:23:50.617 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-18 12:23:50.573 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-18 12:23:50.621 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-18 12:23:50.641 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-18 12:23:50.641 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-18 12:23:50.668 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-18 12:23:50.692 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-18 12:23:50.716 +01:00 [Information] Request finished in 282.6029ms 304 application/javascript
+2017-06-18 12:23:50.716 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-18 12:23:50.780 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-18 12:23:50.800 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-18 12:23:50.804 +01:00 [Information] Request finished in 275.6478ms 304 application/javascript
+2017-06-18 12:23:50.828 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-18 12:23:50.848 +01:00 [Information] Request finished in 255.078ms 304 application/javascript
+2017-06-18 12:23:50.848 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-18 12:23:50.912 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-18 12:23:50.912 +01:00 [Information] Request finished in 186.8437ms 304 application/javascript
+2017-06-18 12:23:50.916 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-18 12:23:50.920 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-18 12:23:50.924 +01:00 [Information] Request finished in 92.8778ms 304 application/javascript
+2017-06-18 12:23:50.968 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-18 12:23:50.968 +01:00 [Information] Request finished in 202.8928ms 304 application/javascript
+2017-06-18 12:23:50.972 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-18 12:23:50.972 +01:00 [Information] Request finished in 273.0077ms 304 application/javascript
+2017-06-18 12:23:50.996 +01:00 [Information] Request finished in 323.9118ms 304 application/javascript
+2017-06-18 12:23:50.996 +01:00 [Information] Request finished in 103.9374ms 304 application/javascript
+2017-06-18 12:23:51.000 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-18 12:23:51.004 +01:00 [Information] Request finished in 85.2981ms 304 application/javascript
+2017-06-18 12:23:51.004 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-18 12:23:51.008 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-18 12:23:51.012 +01:00 [Information] Request finished in 6.851ms 304 image/png
+2017-06-18 12:23:51.016 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-18 12:23:51.016 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-18 12:23:51.020 +01:00 [Information] Request finished in 6.167ms 304 text/css
+2017-06-18 12:23:51.104 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-18 12:23:51.116 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:23:51.120 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:23:51.124 +01:00 [Information] Request finished in 6.5262ms 304 image/png
+2017-06-18 12:23:51.498 +01:00 [Information] Request finished in 399.7898ms 200 application/json
+2017-06-18 12:24:05.401 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:24:05.405 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:24:05.409 +01:00 [Information] Request finished in 8.9573ms 304 image/png
+2017-06-18 12:24:11.558 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-18 12:24:11.562 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-18 12:24:11.566 +01:00 [Information] Request finished in 6.9587ms 304 image/gif
+2017-06-18 12:24:11.586 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:24:11.590 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:24:11.594 +01:00 [Information] Request finished in 5.6641ms 304 image/png
+2017-06-18 12:24:21.172 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:24:21.172 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:24:21.176 +01:00 [Information] Request finished in 5.9179ms 304 image/png
+2017-06-18 12:24:22.141 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:24:22.145 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:24:22.149 +01:00 [Information] Request finished in 7.3152ms 304 image/png
+2017-06-18 12:25:54.448 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:25:54.448 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:25:54.456 +01:00 [Information] Request finished in 10.0238ms 304 image/png
+2017-06-18 12:25:55.941 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:25:55.945 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:25:55.949 +01:00 [Information] Request finished in 7.735ms 304 image/png
+2017-06-18 12:27:06.499 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:06.503 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:06.507 +01:00 [Information] Request finished in 10.8389ms 304 image/png
+2017-06-18 12:27:07.542 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:07.542 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:07.550 +01:00 [Information] Request finished in 9.4822ms 304 image/png
+2017-06-18 12:27:10.850 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:10.850 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:10.858 +01:00 [Information] Request finished in 7.8321ms 304 image/png
+2017-06-18 12:27:17.171 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:17.175 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:17.180 +01:00 [Information] Request finished in 10.028ms 304 image/png
+2017-06-18 12:27:18.798 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:18.798 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:18.806 +01:00 [Information] Request finished in 8.474ms 304 image/png
+2017-06-18 12:27:20.287 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:20.291 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:20.295 +01:00 [Information] Request finished in 7.498ms 304 image/png
+2017-06-18 12:27:25.632 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:25.636 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:25.640 +01:00 [Information] Request finished in 7.9151ms 304 image/png
+2017-06-18 12:27:29.024 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:27:29.028 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:27:29.032 +01:00 [Information] Request finished in 8.2972ms 304 image/png
+2017-06-18 12:28:54.797 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:28:54.797 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:28:54.805 +01:00 [Information] Request finished in 7.9193ms 304 image/png
+2017-06-18 12:28:57.591 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:28:57.595 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:28:57.599 +01:00 [Information] Request finished in 8.6518ms 304 image/png
+2017-06-18 12:29:00.653 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:00.657 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:00.661 +01:00 [Information] Request finished in 8.2804ms 304 image/png
+2017-06-18 12:29:25.537 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:25.541 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:25.545 +01:00 [Information] Request finished in 8.3541ms 304 image/png
+2017-06-18 12:29:35.614 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:35.618 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:35.622 +01:00 [Information] Request finished in 7.5885ms 304 image/png
+2017-06-18 12:29:36.924 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:36.928 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:36.936 +01:00 [Information] Request finished in 9.0185ms 304 image/png
+2017-06-18 12:29:37.902 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:37.902 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:37.910 +01:00 [Information] Request finished in 8.3611ms 304 image/png
+2017-06-18 12:29:39.575 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:29:39.579 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:29:39.587 +01:00 [Information] Request finished in 8.0971ms 304 image/png
+2017-06-18 12:33:55.939 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:33:55.943 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:33:55.947 +01:00 [Information] Request finished in 11.8568ms 304 image/png
+2017-06-18 12:34:00.718 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-18 12:34:00.722 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-18 12:34:00.726 +01:00 [Information] Request finished in 8.028ms 304 image/png

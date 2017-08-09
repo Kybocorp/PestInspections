@@ -1,0 +1,1267 @@
+2017-06-07 12:17:58.005 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 12:17:58.005 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 12:17:58.231 +01:00 [Information] Request finished in 300.6945ms 200 
+2017-06-07 12:17:58.586 +01:00 [Information] Request finished in 679.0249ms 404 
+2017-06-07 12:18:04.615 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui  
+2017-06-07 12:18:04.625 +01:00 [Information] Request finished in 9.7509ms 302 
+2017-06-07 12:18:04.633 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-07 12:18:04.648 +01:00 [Information] Request finished in 14.7773ms 200 text/html
+2017-06-07 12:18:04.681 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-07 12:18:04.682 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-07 12:18:04.684 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-07 12:18:04.735 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-07 12:18:04.737 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-07 12:18:04.760 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-07 12:18:04.855 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-07 12:18:04.978 +01:00 [Information] Request finished in 284.5399ms 304 text/css
+2017-06-07 12:18:04.986 +01:00 [Information] Request finished in 294.2937ms 304 application/javascript
+2017-06-07 12:18:05.043 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-07 12:18:05.066 +01:00 [Information] Request finished in 209.4536ms 304 text/css
+2017-06-07 12:18:05.066 +01:00 [Information] Request finished in 307.8832ms 304 application/javascript
+2017-06-07 12:18:05.091 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-07 12:18:05.092 +01:00 [Information] Request finished in 258.1086ms 304 text/css
+2017-06-07 12:18:05.095 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-07 12:18:05.116 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-07 12:18:05.138 +01:00 [Information] Request finished in 329.0535ms 304 application/javascript
+2017-06-07 12:18:05.160 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-07 12:18:05.181 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-07 12:18:05.202 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-07 12:18:05.246 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-07 12:18:05.247 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-07 12:18:05.326 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-07 12:18:05.326 +01:00 [Information] Request finished in 225.7024ms 304 application/javascript
+2017-06-07 12:18:05.334 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-07 12:18:05.340 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-07 12:18:05.346 +01:00 [Information] Request finished in 178.8884ms 304 application/javascript
+2017-06-07 12:18:05.350 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-07 12:18:05.360 +01:00 [Information] Request finished in 227.9796ms 304 application/javascript
+2017-06-07 12:18:05.394 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-07 12:18:05.396 +01:00 [Information] Request finished in 233.012ms 304 application/javascript
+2017-06-07 12:18:05.397 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-07 12:18:05.464 +01:00 [Information] Request finished in 399.3424ms 304 application/javascript
+2017-06-07 12:18:05.466 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-07 12:18:05.467 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-07 12:18:05.489 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-07 12:18:05.511 +01:00 [Information] Request finished in 108.5542ms 304 application/javascript
+2017-06-07 12:18:05.513 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-07 12:18:05.561 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-07 12:18:05.570 +01:00 [Information] Request finished in 403.5557ms 304 application/javascript
+2017-06-07 12:18:05.625 +01:00 [Information] Request finished in 172.5301ms 304 application/javascript
+2017-06-07 12:18:05.626 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-07 12:18:05.631 +01:00 [Information] Request finished in 228.5977ms 304 application/javascript
+2017-06-07 12:18:05.631 +01:00 [Information] Request finished in 112.1652ms 304 application/javascript
+2017-06-07 12:18:05.637 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-07 12:18:05.641 +01:00 [Information] Request finished in 149.5254ms 304 application/javascript
+2017-06-07 12:18:05.643 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-07 12:18:05.645 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-07 12:18:05.649 +01:00 [Information] Request finished in 6.2342ms 304 image/png
+2017-06-07 12:18:05.652 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-07 12:18:05.654 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-07 12:18:05.657 +01:00 [Information] Request finished in 5.2662ms 304 text/css
+2017-06-07 12:18:05.690 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-07 12:18:05.702 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 12:18:05.710 +01:00 [Information] Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-06-07 12:18:05.752 +01:00 [Information] Request finished in 28.9188ms 200 image/png
+2017-06-07 12:18:05.753 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-32x32.png  
+2017-06-07 12:18:05.755 +01:00 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-06-07 12:18:05.758 +01:00 [Information] Request finished in 26.5348ms 304 image/png
+2017-06-07 12:18:06.098 +01:00 [Information] Request finished in 407.9816ms 200 application/json
+2017-06-07 12:18:34.384 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 12:18:34.387 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 12:18:34.394 +01:00 [Information] Request finished in 10.2916ms 304 image/png
+2017-06-07 12:18:36.625 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-07 12:18:36.628 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-07 12:18:36.634 +01:00 [Information] Request finished in 9.2223ms 304 image/gif
+2017-06-07 12:18:36.665 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 12:18:36.668 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 12:18:36.672 +01:00 [Information] Request finished in 8.4353ms 304 image/png
+2017-06-07 12:18:41.234 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 1396
+2017-06-07 12:18:41.329 +01:00 [Information] Authorization failed for user: null.
+2017-06-07 12:18:41.335 +01:00 [Warning] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-06-07 12:18:41.344 +01:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2017-06-07 12:18:41.362 +01:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2017-06-07 12:18:41.368 +01:00 [Information] Request finished in 136.1789ms 401 
+2017-06-07 12:22:42.348 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 1181
+2017-06-07 12:22:42.356 +01:00 [Information] Authorization failed for user: null.
+2017-06-07 12:22:42.361 +01:00 [Warning] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-06-07 12:22:42.363 +01:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2017-06-07 12:22:42.366 +01:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2017-06-07 12:22:42.371 +01:00 [Information] Request finished in 25.8565ms 401 
+2017-06-07 12:24:24.376 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 12:24:24.376 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 12:24:24.539 +01:00 [Information] Request finished in 201.5884ms 200 
+2017-06-07 12:24:24.874 +01:00 [Information] Request finished in 555.7413ms 404 
+2017-06-07 12:24:31.132 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 1181
+2017-06-07 12:24:31.476 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments ([""]) - ModelState is Invalid
+2017-06-07 12:24:44.400 +01:00 [Information] Calling SaveInspection from InspectionController with request : "(null)"
+2017-06-07 12:25:06.400 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:""
+2017-06-07 12:25:09.253 +01:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-06-07 12:25:09.265 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" in 38055.5055ms
+2017-06-07 12:25:09.269 +01:00 [Information] Request finished in 38137.8799ms 200 
+2017-06-07 12:25:24.217 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 1396
+2017-06-07 12:25:24.401 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 12:25:49.818 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: "complete", Tenant: Tenant { TenantId: 92, TenantDisplayName: null, FirstName: "anis", LastName: "adel", Telephone: "078138778", Email: "anis@adel.com", IsDangerous: False, IsNewTenant: False }, Address: Address { PropertyId: 1, HouseName: "house name", HouseNumber: "house number", Street: "street", AddressLine1: "address line 1", AddressLine2: "address line 2", PostCode: "string", Longitude: "22.982728", Latitude: "19.200282" }, PestControlForm: PestControlForm { StartTime: 05/09/2017 23:29:15, EndTime: 05/09/2017 23:29:15, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 0 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 12:25:57.891 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <Status>complete</Status>
+  <Tenant>
+    <TenantId>92</TenantId>
+    <FirstName>anis</FirstName>
+    <LastName>adel</LastName>
+    <Telephone>078138778</Telephone>
+    <Email>anis@adel.com</Email>
+    <IsDangerous>false</IsDangerous>
+    <IsNewTenant>false</IsNewTenant>
+  </Tenant>
+  <Address>
+    <PropertyId>1</PropertyId>
+    <HouseName>house name</HouseName>
+    <HouseNumber>house number</HouseNumber>
+    <Street>street</Street>
+    <AddressLine1>address line 1</AddressLine1>
+    <AddressLine2>address line 2</AddressLine2>
+    <PostCode>string</PostCode>
+    <Longitude>22.982728</Longitude>
+    <Latitude>19.200282</Latitude>
+  </Address>
+  <PestControlForm>
+    <StartTime>2017-05-09T23:29:15.662Z</StartTime>
+    <EndTime>2017-05-09T23:29:15.662Z</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>0</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 12:26:00.931 +01:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-06-07 12:26:00.935 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" in 36709.1949ms
+2017-06-07 12:26:00.943 +01:00 [Information] Request finished in 36725.6812ms 200 
+2017-06-07 13:04:08.013 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 13:04:08.048 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 13:04:08.065 +01:00 [Information] Request finished in 53.295ms 304 image/png
+2017-06-07 13:04:10.022 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 13:04:10.025 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 13:04:10.029 +01:00 [Information] Request finished in 8.3252ms 304 image/png
+2017-06-07 14:19:11.685 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 14:19:11.685 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 14:19:11.869 +01:00 [Information] Request finished in 237.6741ms 200 
+2017-06-07 14:19:12.214 +01:00 [Information] Request finished in 607.1665ms 404 
+2017-06-07 14:19:15.165 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui  
+2017-06-07 14:19:15.176 +01:00 [Information] Request finished in 12.3779ms 302 
+2017-06-07 14:19:15.184 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-07 14:19:15.198 +01:00 [Information] Request finished in 15.1655ms 200 text/html
+2017-06-07 14:19:15.209 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-07 14:19:15.210 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-07 14:19:15.241 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-07 14:19:15.241 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-07 14:19:15.265 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-07 14:19:15.266 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-07 14:19:15.316 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-07 14:19:15.428 +01:00 [Information] Request finished in 140.7672ms 304 application/javascript
+2017-06-07 14:19:15.429 +01:00 [Information] Request finished in 160.7236ms 304 application/javascript
+2017-06-07 14:19:15.440 +01:00 [Information] Request finished in 192.9594ms 304 application/javascript
+2017-06-07 14:19:15.446 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-07 14:19:15.469 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-07 14:19:15.491 +01:00 [Information] Request finished in 261.0986ms 304 text/css
+2017-06-07 14:19:15.492 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-07 14:19:15.539 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-07 14:19:15.540 +01:00 [Information] Request finished in 327.0147ms 304 text/css
+2017-06-07 14:19:15.544 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-07 14:19:15.544 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-07 14:19:15.568 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-07 14:19:15.568 +01:00 [Information] Request finished in 171.3026ms 304 text/css
+2017-06-07 14:19:15.591 +01:00 [Information] Request finished in 75.7193ms 304 application/javascript
+2017-06-07 14:19:15.615 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-07 14:19:15.617 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-07 14:19:15.618 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-07 14:19:15.640 +01:00 [Information] Request finished in 75.6703ms 304 application/javascript
+2017-06-07 14:19:15.687 +01:00 [Information] Request finished in 203.8012ms 304 application/javascript
+2017-06-07 14:19:15.688 +01:00 [Information] Request finished in 121.2966ms 304 application/javascript
+2017-06-07 14:19:15.713 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-07 14:19:15.735 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-07 14:19:15.737 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-07 14:19:15.739 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-07 14:19:15.740 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-07 14:19:15.763 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-07 14:19:15.788 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-07 14:19:15.791 +01:00 [Information] Request finished in 97.0701ms 304 application/javascript
+2017-06-07 14:19:15.792 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-07 14:19:15.797 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-07 14:19:15.798 +01:00 [Information] Request finished in 175.8807ms 304 application/javascript
+2017-06-07 14:19:15.822 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-07 14:19:15.822 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-07 14:19:15.912 +01:00 [Information] Request finished in 50.7137ms 304 application/javascript
+2017-06-07 14:19:15.913 +01:00 [Information] Request finished in 223.6343ms 304 application/javascript
+2017-06-07 14:19:15.916 +01:00 [Information] Request finished in 318.3531ms 304 application/javascript
+2017-06-07 14:19:15.917 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-07 14:19:15.922 +01:00 [Information] Request finished in 227.3848ms 304 application/javascript
+2017-06-07 14:19:15.923 +01:00 [Information] Request finished in 277.3651ms 304 application/javascript
+2017-06-07 14:19:15.931 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-07 14:19:15.933 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-07 14:19:15.938 +01:00 [Information] Request finished in 6.1871ms 304 image/png
+2017-06-07 14:19:15.942 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-07 14:19:15.944 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-07 14:19:15.947 +01:00 [Information] Request finished in 5.7443ms 304 text/css
+2017-06-07 14:19:16.036 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-07 14:19:16.049 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 14:19:16.052 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 14:19:16.056 +01:00 [Information] Request finished in 6.5972ms 304 image/png
+2017-06-07 14:19:16.422 +01:00 [Information] Request finished in 386.0146ms 200 application/json
+2017-06-07 14:19:18.177 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 14:19:18.180 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 14:19:18.187 +01:00 [Information] Request finished in 10.4125ms 304 image/png
+2017-06-07 14:19:20.515 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-07 14:19:20.518 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-07 14:19:20.524 +01:00 [Information] Request finished in 8.4773ms 304 image/gif
+2017-06-07 14:19:20.549 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 14:19:20.551 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 14:19:20.555 +01:00 [Information] Request finished in 5.9925ms 304 image/png
+2017-06-07 14:21:03.843 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 990
+2017-06-07 14:21:04.155 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:21:09.731 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: "complete", Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 05/09/2017 23:29:15, EndTime: 05/09/2017 23:29:15, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 1 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:21:10.132 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <Status>complete</Status>
+  <PestControlForm>
+    <StartTime>2017-05-09T23:29:15.662Z</StartTime>
+    <EndTime>2017-05-09T23:29:15.662Z</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>1</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:21:10.952 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:21:11.242 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:21:11.266 +01:00 [Information] Request finished in 7423.4919ms 500 application/json
+2017-06-07 14:22:14.020 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 966
+2017-06-07 14:22:14.039 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:22:24.610 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 05/09/2017 23:29:15, EndTime: 05/09/2017 23:29:15, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 1 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:22:24.614 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <PestControlForm>
+    <StartTime>2017-05-09T23:29:15.662Z</StartTime>
+    <EndTime>2017-05-09T23:29:15.662Z</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>1</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:22:24.947 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:22:25.022 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:22:25.037 +01:00 [Information] Request finished in 11027.8043ms 500 application/json
+2017-06-07 14:23:00.342 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 878
+2017-06-07 14:23:00.348 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:23:04.906 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 01/01/0001 00:00:00, EndTime: 01/01/0001 00:00:00, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 1 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:23:04.909 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <PestControlForm>
+    <StartTime>0001-01-01T00:00:00</StartTime>
+    <EndTime>0001-01-01T00:00:00</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>1</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:23:05.151 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:23:05.240 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:23:05.252 +01:00 [Information] Request finished in 4907.436ms 500 application/json
+2017-06-07 14:23:08.653 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 878
+2017-06-07 14:23:08.656 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:23:19.751 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 01/01/0001 00:00:00, EndTime: 01/01/0001 00:00:00, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 1 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:23:19.755 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <PestControlForm>
+    <StartTime>0001-01-01T00:00:00</StartTime>
+    <EndTime>0001-01-01T00:00:00</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>1</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:23:20.826 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:23:20.918 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:23:20.928 +01:00 [Information] Request finished in 12278.4344ms 500 application/json
+2017-06-07 14:23:54.131 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 852
+2017-06-07 14:23:54.158 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:24:05.793 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 01/01/0001 00:00:00, EndTime: 01/01/0001 00:00:00, NoAccess: 1, InsectMonitorsFound: 3, BaitPointsFound: 6, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 1 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: null, PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 95.99 }, JobClosed: True, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:24:05.796 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <PestControlForm>
+    <StartTime>0001-01-01T00:00:00</StartTime>
+    <EndTime>0001-01-01T00:00:00</EndTime>
+    <NoAccess>1</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>6</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>1</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>95.99</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>true</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:24:06.000 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:24:06.077 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:24:06.088 +01:00 [Information] Request finished in 11955.5676ms 500 application/json
+2017-06-07 14:29:34.643 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 938
+2017-06-07 14:29:34.648 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:30:05.775 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 0, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 06/07/2017 13:19:16, EndTime: 06/07/2017 13:19:16, NoAccess: 0, InsectMonitorsFound: 3, BaitPointsFound: 2, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 2 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: [5, 3], PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 33.33 }, JobClosed: False, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:30:05.779 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>0</InspectionId>
+  <PestControlForm>
+    <StartTime>2017-06-07T13:19:16.473Z</StartTime>
+    <EndTime>2017-06-07T13:19:16.473Z</EndTime>
+    <NoAccess>0</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>2</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>2</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <HygieneCommentsIds>
+      <int>5</int>
+      <int>3</int>
+    </HygieneCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>33.33</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>false</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:30:06.434 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:30:06.568 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:30:06.584 +01:00 [Information] Request finished in 31944.8957ms 500 application/json
+2017-06-07 14:30:38.575 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 940
+2017-06-07 14:30:38.578 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.InspectionRequest"]) - ModelState is Valid
+2017-06-07 14:30:44.290 +01:00 [Information] Calling SaveInspection from InspectionController with request : InspectionRequest { InspectionId: 813, Status: null, Tenant: null, Address: null, PestControlForm: PestControlForm { StartTime: 06/07/2017 13:19:16, EndTime: 06/07/2017 13:19:16, NoAccess: 0, InsectMonitorsFound: 3, BaitPointsFound: 2, Treatments: [TreatmentViewModel { PestId: 6, AreaIds: [3, 4], TreatmentIds: [7, 2], InfestationLevelId: 1, MonitorsUsed: 8, BaitPointsUsed: 2, RefrainUsingFor: 2 }], HygieneLevelId: 1, RiskAssessmentIds: [1, 2], StandardCommentsIds: [3, 4], HygieneCommentsIds: [5, 3], PaymentDetails: PaymentDetails { PaymentTypeId: 2, AmountPaid: 33.33 }, JobClosed: False, VisitTypeId: 3, FollowUpDate: 1, Notes: "string", TenantSignature: System.Byte[], UserSignature: System.Byte[], EvidenceImages: [System.Byte[], System.Byte[]] } }
+2017-06-07 14:30:56.214 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:"<?xml version=\"1.0\" encoding=\"utf-16\"?>
+<InspectionRequest xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">
+  <InspectionId>813</InspectionId>
+  <PestControlForm>
+    <StartTime>2017-06-07T13:19:16.473Z</StartTime>
+    <EndTime>2017-06-07T13:19:16.473Z</EndTime>
+    <NoAccess>0</NoAccess>
+    <InsectMonitorsFound>3</InsectMonitorsFound>
+    <BaitPointsFound>2</BaitPointsFound>
+    <Treatments>
+      <TreatmentViewModel>
+        <PestId>6</PestId>
+        <AreaIds>
+          <int>3</int>
+          <int>4</int>
+        </AreaIds>
+        <TreatmentIds>
+          <int>7</int>
+          <int>2</int>
+        </TreatmentIds>
+        <InfestationLevelId>1</InfestationLevelId>
+        <MonitorsUsed>8</MonitorsUsed>
+        <BaitPointsUsed>2</BaitPointsUsed>
+        <RefrainUsingFor>2</RefrainUsingFor>
+      </TreatmentViewModel>
+    </Treatments>
+    <HygieneLevelId>1</HygieneLevelId>
+    <RiskAssessmentIds>
+      <int>1</int>
+      <int>2</int>
+    </RiskAssessmentIds>
+    <StandardCommentsIds>
+      <int>3</int>
+      <int>4</int>
+    </StandardCommentsIds>
+    <HygieneCommentsIds>
+      <int>5</int>
+      <int>3</int>
+    </HygieneCommentsIds>
+    <PaymentDetails>
+      <PaymentTypeId>2</PaymentTypeId>
+      <AmountPaid>33.33</AmountPaid>
+    </PaymentDetails>
+    <JobClosed>false</JobClosed>
+    <VisitTypeId>3</VisitTypeId>
+    <FollowUpDate>1</FollowUpDate>
+    <Notes>string</Notes>
+    <TenantSignature>0x20</TenantSignature>
+    <UserSignature>0x20</UserSignature>
+    <EvidenceImages>
+      <base64Binary>0x20</base64Binary>
+      <base64Binary>0x20</base64Binary>
+    </EvidenceImages>
+  </PestControlForm>
+</InspectionRequest>"
+2017-06-07 14:32:42.021 +01:00 [Error] CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+2017-06-07 14:32:42.097 +01:00 [Error] An unhandled exception has occurred: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+System.Exception: CroydonPestControl.Infrastructure.InspectionRepository.WithConnection() experienced a SQL exception (not a timeout)
+   at CroydonPestControl.Infrastructure.InspectionRepository.<SaveInspectionAsync>d__7.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.Infrastructure\InspectionRepository.cs:line 140
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.AppServices.InspectionAppService.<SaveInspectionAsync>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\CroydonPestControl.AppServices\InspectionAppService.cs:line 32
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CroydonPestControl.API.Controllers.InspectionController.<SaveInspection>d__5.MoveNext() in C:\Users\Anis\Desktop\CroydonPestControl\CroydonPestControl\src\CroydonPestControl.API\Controllers\InspectionController.cs:line 47
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionFilterAsync>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeAsync>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.ExceptionTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.ApplicationInsights.AspNetCore.RequestTrackingMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware`1.<Invoke>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>d__6.MoveNext()
+2017-06-07 14:32:42.112 +01:00 [Information] Request finished in 123544.4886ms 500 application/json
+2017-06-07 14:32:42.128 +01:00 [Information] Connection id ""0HL5DKV4LG1D7"" communication error
+Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvException: Error -4077 ECONNRESET connection reset by peer
+2017-06-07 14:32:42.159 +01:00 [Information] Connection id ""0HL5DKV4LG1D7"" communication error
+Microsoft.AspNetCore.Server.Kestrel.Internal.Networking.UvException: Error -4077 ECONNRESET connection reset by peer
+2017-06-07 14:40:42.039 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 14:40:42.039 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 14:40:42.209 +01:00 [Information] Request finished in 215.9319ms 200 
+2017-06-07 14:40:42.552 +01:00 [Information] Request finished in 579.2251ms 404 
+2017-06-07 14:40:59.785 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/SaveInspection application/json 945
+2017-06-07 14:41:00.206 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" with arguments ([""]) - ModelState is Invalid
+2017-06-07 14:41:06.475 +01:00 [Information] Calling SaveInspection from InspectionController with request : "(null)"
+2017-06-07 14:41:06.500 +01:00 [Information] Calling stored procedure dbo.SaveInspection with inspection XML:""
+2017-06-07 14:41:07.289 +01:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 200
+2017-06-07 14:41:07.301 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.SaveInspection (CroydonPestControl.API)" in 7443.0722ms
+2017-06-07 14:41:07.306 +01:00 [Information] Request finished in 7521.5315ms 200 
+2017-06-07 15:25:44.211 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 15:25:44.211 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 15:25:44.381 +01:00 [Information] Request finished in 205.5399ms 200 
+2017-06-07 15:25:44.719 +01:00 [Information] Request finished in 567.1069ms 404 
+2017-06-07 15:26:05.107 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-07 15:26:05.131 +01:00 [Information] Request finished in 21.1567ms 200 text/html
+2017-06-07 15:26:05.160 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-07 15:26:05.183 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-07 15:26:05.189 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-07 15:26:05.216 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-07 15:26:05.216 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-07 15:26:05.218 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-07 15:26:05.266 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-07 15:26:05.391 +01:00 [Information] Request finished in 200.6161ms 304 text/css
+2017-06-07 15:26:05.394 +01:00 [Information] Request finished in 106.7231ms 304 text/css
+2017-06-07 15:26:05.409 +01:00 [Information] Request finished in 225.5905ms 304 text/css
+2017-06-07 15:26:05.435 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-07 15:26:05.436 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-07 15:26:05.437 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-07 15:26:05.460 +01:00 [Information] Request finished in 122.9612ms 304 application/javascript
+2017-06-07 15:26:05.505 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-07 15:26:05.527 +01:00 [Information] Request finished in 320.1143ms 304 application/javascript
+2017-06-07 15:26:05.527 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-07 15:26:05.575 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-07 15:26:05.575 +01:00 [Information] Request finished in 289.4077ms 304 application/javascript
+2017-06-07 15:26:05.577 +01:00 [Information] Request finished in 117.0801ms 304 application/javascript
+2017-06-07 15:26:05.580 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-07 15:26:05.603 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-07 15:26:05.645 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-07 15:26:05.690 +01:00 [Information] Request finished in 114.8379ms 304 application/javascript
+2017-06-07 15:26:05.692 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-07 15:26:05.715 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-07 15:26:05.716 +01:00 [Information] Request finished in 258.8201ms 304 application/javascript
+2017-06-07 15:26:05.740 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-07 15:26:05.742 +01:00 [Information] Request finished in 115.8787ms 304 application/javascript
+2017-06-07 15:26:05.764 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-07 15:26:05.784 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-07 15:26:05.828 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-07 15:26:05.834 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-07 15:26:05.893 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-07 15:26:05.894 +01:00 [Information] Request finished in 166.7679ms 304 application/javascript
+2017-06-07 15:26:05.920 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-07 15:26:05.943 +01:00 [Information] Request finished in 301.6173ms 304 application/javascript
+2017-06-07 15:26:05.946 +01:00 [Information] Request finished in 363.2913ms 304 application/javascript
+2017-06-07 15:26:05.950 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-07 15:26:05.974 +01:00 [Information] Request finished in 315.4961ms 304 application/javascript
+2017-06-07 15:26:05.975 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-07 15:26:05.999 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-07 15:26:06.000 +01:00 [Information] Request finished in 236.2068ms 304 application/javascript
+2017-06-07 15:26:06.003 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-07 15:26:06.004 +01:00 [Information] Request finished in 187.2505ms 304 application/javascript
+2017-06-07 15:26:06.007 +01:00 [Information] Request finished in 105.7634ms 304 application/javascript
+2017-06-07 15:26:06.009 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-07 15:26:06.011 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-07 15:26:06.014 +01:00 [Information] Request finished in 5.5493ms 304 image/png
+2017-06-07 15:26:06.018 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-07 15:26:06.020 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-07 15:26:06.023 +01:00 [Information] Request finished in 5.4388ms 304 text/css
+2017-06-07 15:26:06.036 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-07 15:26:06.044 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:26:06.050 +01:00 [Information] Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-06-07 15:26:06.107 +01:00 [Information] Request finished in 31.8374ms 200 image/png
+2017-06-07 15:26:06.107 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-32x32.png  
+2017-06-07 15:26:06.107 +01:00 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-06-07 15:26:06.107 +01:00 [Information] Request finished in 39.398ms 304 image/png
+2017-06-07 15:26:06.444 +01:00 [Information] Request finished in 408.6371ms 200 application/json
+2017-06-07 15:26:06.661 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-07 15:26:06.666 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-07 15:26:06.672 +01:00 [Information] Request finished in 16.2222ms 304 image/gif
+2017-06-07 15:26:11.100 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:26:11.104 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:26:11.110 +01:00 [Information] Request finished in 9.4047ms 304 image/png
+2017-06-07 15:26:13.263 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:26:13.265 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:26:13.272 +01:00 [Information] Request finished in 8.2436ms 304 image/png
+2017-06-07 15:26:27.517 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Admin/GetAllInspections application/json 17
+2017-06-07 15:26:27.609 +01:00 [Information] Authorization failed for user: null.
+2017-06-07 15:26:27.615 +01:00 [Warning] Authorization failed for the request at filter '"Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter"'.
+2017-06-07 15:26:27.625 +01:00 [Information] Executing ChallengeResult with authentication schemes ([]).
+2017-06-07 15:26:27.642 +01:00 [Information] AuthenticationScheme: "Bearer" was challenged.
+2017-06-07 15:26:27.647 +01:00 [Information] Request finished in 131.0475ms 401 
+2017-06-07 15:27:01.145 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 15:27:01.145 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 15:27:01.309 +01:00 [Information] Request finished in 198.1398ms 200 
+2017-06-07 15:27:01.647 +01:00 [Information] Request finished in 560.7761ms 404 
+2017-06-07 15:27:05.426 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-07 15:27:05.447 +01:00 [Information] Request finished in 20.7298ms 200 text/html
+2017-06-07 15:27:05.480 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-07 15:27:05.481 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-07 15:27:05.483 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-07 15:27:05.493 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-07 15:27:05.539 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-07 15:27:05.517 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-07 15:27:05.651 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-07 15:27:05.694 +01:00 [Information] Request finished in 206.2416ms 304 application/javascript
+2017-06-07 15:27:05.699 +01:00 [Information] Request finished in 239.1787ms 304 text/css
+2017-06-07 15:27:05.752 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-07 15:27:05.774 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-07 15:27:05.753 +01:00 [Information] Request finished in 219.6016ms 304 application/javascript
+2017-06-07 15:27:05.843 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-07 15:27:05.888 +01:00 [Information] Request finished in 335.187ms 304 application/javascript
+2017-06-07 15:27:05.896 +01:00 [Information] Request finished in 340.1093ms 304 text/css
+2017-06-07 15:27:05.921 +01:00 [Information] Request finished in 372.8365ms 304 text/css
+2017-06-07 15:27:05.924 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-07 15:27:05.929 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-07 15:27:05.954 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-07 15:27:05.955 +01:00 [Information] Request finished in 165.2125ms 304 application/javascript
+2017-06-07 15:27:05.954 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-07 15:27:05.977 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-07 15:27:06.000 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-07 15:27:06.003 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-07 15:27:06.024 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-07 15:27:06.030 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-07 15:27:06.128 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-07 15:27:06.130 +01:00 [Information] Request finished in 186.4667ms 304 application/javascript
+2017-06-07 15:27:06.176 +01:00 [Information] Request finished in 131.139ms 304 application/javascript
+2017-06-07 15:27:06.180 +01:00 [Information] Request finished in 381.5415ms 304 application/javascript
+2017-06-07 15:27:06.208 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-07 15:27:06.209 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-07 15:27:06.211 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-07 15:27:06.212 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-07 15:27:06.235 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-07 15:27:06.237 +01:00 [Information] Request finished in 49.5161ms 304 application/javascript
+2017-06-07 15:27:06.239 +01:00 [Information] Request finished in 155.3057ms 304 application/javascript
+2017-06-07 15:27:06.285 +01:00 [Information] Request finished in 357.4974ms 304 application/javascript
+2017-06-07 15:27:06.286 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-07 15:27:06.295 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-07 15:27:06.297 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-07 15:27:06.322 +01:00 [Information] Request finished in 53.1653ms 304 application/javascript
+2017-06-07 15:27:06.323 +01:00 [Information] Request finished in 345.6527ms 304 application/javascript
+2017-06-07 15:27:06.328 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-07 15:27:06.334 +01:00 [Information] Request finished in 177.6437ms 304 application/javascript
+2017-06-07 15:27:06.380 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-07 15:27:06.380 +01:00 [Information] Request finished in 116.8622ms 304 application/javascript
+2017-06-07 15:27:06.382 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-07 15:27:06.385 +01:00 [Information] Request finished in 45.56ms 304 image/png
+2017-06-07 15:27:06.389 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-07 15:27:06.391 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-07 15:27:06.394 +01:00 [Information] Request finished in 5.0669ms 304 text/css
+2017-06-07 15:27:06.419 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-07 15:27:06.428 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:27:06.434 +01:00 [Information] Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-06-07 15:27:06.457 +01:00 [Information] Request finished in 28.1089ms 200 image/png
+2017-06-07 15:27:06.459 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-32x32.png  
+2017-06-07 15:27:06.461 +01:00 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-06-07 15:27:06.464 +01:00 [Information] Request finished in 5.5535ms 304 image/png
+2017-06-07 15:27:06.801 +01:00 [Information] Request finished in 382.3458ms 200 application/json
+2017-06-07 15:27:07.016 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-07 15:27:07.020 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-07 15:27:07.031 +01:00 [Information] Request finished in 14.705ms 304 image/gif
+2017-06-07 15:27:21.955 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Admin/GetAllInspections application/json 17
+2017-06-07 15:27:22.234 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.AdminController.GetAllInspections (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.GetAllInspectionsRequest"]) - ModelState is Valid
+2017-06-07 15:27:22.248 +01:00 [Information] Calling GetAllInspections from AdminController with request: GetAllInspectionsRequest { UserId: 1, InspectionDate: null }
+2017-06-07 15:27:22.269 +01:00 [Information] Calling stored procedure dbo.GetAllPendingInspections with Parameters:[UserId: 1, InspectionDate: "(null)"]
+2017-06-07 15:27:27.178 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-06-07 15:27:27.276 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.AdminController.GetAllInspections (CroydonPestControl.API)" in 5250.5242ms
+2017-06-07 15:27:27.281 +01:00 [Information] Request finished in 5327.1081ms 200 application/json; charset=utf-8
+2017-06-07 15:27:54.468 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:27:54.471 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:27:54.476 +01:00 [Information] Request finished in 8.551ms 304 image/png
+2017-06-07 15:27:57.583 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:27:57.586 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:27:57.591 +01:00 [Information] Request finished in 7.8909ms 304 image/png
+2017-06-07 15:28:35.723 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:28:35.727 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:28:35.731 +01:00 [Information] Request finished in 10.363ms 304 image/png
+2017-06-07 15:28:37.075 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:28:37.078 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:28:37.084 +01:00 [Information] Request finished in 8.7413ms 304 image/png
+2017-06-07 15:28:38.566 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:28:38.569 +01:00 [Information] The file "/images/favicon-16x16.png" was not modified
+2017-06-07 15:28:38.575 +01:00 [Information] Request finished in 8.4292ms 304 image/png
+2017-06-07 15:28:48.074 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 47
+2017-06-07 15:28:48.100 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Valid
+2017-06-07 15:28:48.108 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 1, Pests: [1] }
+2017-06-07 15:28:48.114 +01:00 [Information] Calling stored procedure dbo.GetFollowUpDates with inspectionId:1 and pests:["1"]
+2017-06-07 15:28:57.536 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-06-07 15:28:57.555 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 9475.2703ms
+2017-06-07 15:28:57.561 +01:00 [Information] Request finished in 9488.5972ms 200 application/json; charset=utf-8
+2017-06-07 15:29:11.886 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 28
+2017-06-07 15:29:11.891 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Valid
+2017-06-07 15:29:11.894 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 0, Pests: [1] }
+2017-06-07 15:29:11.896 +01:00 [Information] Calling stored procedure dbo.GetFollowUpDates with inspectionId:0 and pests:["1"]
+2017-06-07 15:29:11.931 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-06-07 15:29:11.937 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 43.5231ms
+2017-06-07 15:29:11.949 +01:00 [Information] Request finished in 60.0551ms 200 application/json; charset=utf-8
+2017-06-07 15:29:18.960 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 28
+2017-06-07 15:29:18.963 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Valid
+2017-06-07 15:29:18.967 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 0, Pests: [1] }
+2017-06-07 15:29:18.970 +01:00 [Information] Calling stored procedure dbo.GetFollowUpDates with inspectionId:0 and pests:["1"]
+2017-06-07 15:29:19.001 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-06-07 15:29:19.004 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 40.9189ms
+2017-06-07 15:29:19.015 +01:00 [Information] Request finished in 52.3382ms 200 application/json; charset=utf-8
+2017-06-07 15:29:38.286 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 28
+2017-06-07 15:29:38.289 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Valid
+2017-06-07 15:29:56.491 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 0, Pests: [1] }
+2017-06-07 15:30:03.336 +01:00 [Information] Calling stored procedure dbo.GetFollowUpDates with inspectionId:0 and pests:["1"]
+2017-06-07 15:30:03.376 +01:00 [Information] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext".
+2017-06-07 15:30:03.380 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 25090.9674ms
+2017-06-07 15:30:03.386 +01:00 [Information] Request finished in 25100.4795ms 200 application/json; charset=utf-8
+2017-06-07 15:30:15.191 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 23
+2017-06-07 15:30:15.199 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Invalid
+2017-06-07 15:30:18.940 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 1, Pests: null }
+2017-06-07 15:30:18.948 +01:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 400
+2017-06-07 15:30:18.951 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 3756.2488ms
+2017-06-07 15:30:18.957 +01:00 [Information] Request finished in 3765.8864ms 400 
+2017-06-07 15:32:39.963 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/api/values  
+2017-06-07 15:32:39.963 +01:00 [Information] Request starting HTTP/1.1 DEBUG http://localhost:59004/  0
+2017-06-07 15:32:40.156 +01:00 [Information] Request finished in 239.0774ms 200 
+2017-06-07 15:32:40.500 +01:00 [Information] Request finished in 603.9381ms 404 
+2017-06-07 15:32:43.003 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/index.html  
+2017-06-07 15:32:43.017 +01:00 [Information] Request finished in 14.1774ms 200 text/html
+2017-06-07 15:32:43.050 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/reset.css  
+2017-06-07 15:32:43.052 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/typography.css  
+2017-06-07 15:32:43.080 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/screen.css  
+2017-06-07 15:32:43.081 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/object-assign-pollyfill.js  
+2017-06-07 15:32:43.104 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery-1.8.0.min.js  
+2017-06-07 15:32:43.105 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.slideto.min.js  
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/lib/object-assign-pollyfill.js" was not modified
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/lib/jquery.slideto.min.js" was not modified
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/lib/jquery-1.8.0.min.js" was not modified
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/css/reset.css" was not modified
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/css/screen.css" was not modified
+2017-06-07 15:32:43.154 +01:00 [Information] The file "/css/typography.css" was not modified
+2017-06-07 15:32:43.263 +01:00 [Information] Request finished in 203.0561ms 304 text/css
+2017-06-07 15:32:43.268 +01:00 [Information] Request finished in 233.8061ms 304 text/css
+2017-06-07 15:32:43.302 +01:00 [Information] Request finished in 99.9211ms 304 application/javascript
+2017-06-07 15:32:43.327 +01:00 [Information] Request finished in 247.6238ms 304 text/css
+2017-06-07 15:32:43.350 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.wiggle.min.js  
+2017-06-07 15:32:43.350 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/handlebars-4.0.5.js  
+2017-06-07 15:32:43.352 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/lodash.min.js  
+2017-06-07 15:32:43.376 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jquery.ba-bbq.min.js  
+2017-06-07 15:32:43.376 +01:00 [Information] The file "/lib/lodash.min.js" was not modified
+2017-06-07 15:32:43.399 +01:00 [Information] The file "/lib/jquery.ba-bbq.min.js" was not modified
+2017-06-07 15:32:43.400 +01:00 [Information] Request finished in 122.3323ms 304 application/javascript
+2017-06-07 15:32:43.434 +01:00 [Information] The file "/lib/jquery.wiggle.min.js" was not modified
+2017-06-07 15:32:43.435 +01:00 [Information] The file "/lib/handlebars-4.0.5.js" was not modified
+2017-06-07 15:32:43.460 +01:00 [Information] Request finished in 176.6794ms 304 application/javascript
+2017-06-07 15:32:43.482 +01:00 [Information] Request finished in 106.7366ms 304 application/javascript
+2017-06-07 15:32:43.509 +01:00 [Information] Request finished in 156.5868ms 304 application/javascript
+2017-06-07 15:32:43.532 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/backbone-min.js  
+2017-06-07 15:32:43.578 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/swagger-ui.min.js  
+2017-06-07 15:32:43.603 +01:00 [Information] The file "/lib/backbone-min.js" was not modified
+2017-06-07 15:32:43.604 +01:00 [Information] Request finished in 202.1916ms 304 application/javascript
+2017-06-07 15:32:43.611 +01:00 [Information] Request finished in 276.6047ms 304 application/javascript
+2017-06-07 15:32:43.612 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/jsoneditor.min.js  
+2017-06-07 15:32:43.617 +01:00 [Information] Request finished in 195.3252ms 304 application/javascript
+2017-06-07 15:32:43.643 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack_extended.js  
+2017-06-07 15:32:43.643 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/marked.js  
+2017-06-07 15:32:43.645 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/swagger-oauth.js  
+2017-06-07 15:32:43.646 +01:00 [Information] The file "/lib/highlight.9.1.0.pack_extended.js" was not modified
+2017-06-07 15:32:43.670 +01:00 [Information] The file "/lib/marked.js" was not modified
+2017-06-07 15:32:43.691 +01:00 [Information] The file "/swagger-ui.min.js" was not modified
+2017-06-07 15:32:43.713 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/lib/highlight.9.1.0.pack.js  
+2017-06-07 15:32:43.733 +01:00 [Information] The file "/lib/swagger-oauth.js" was not modified
+2017-06-07 15:32:43.778 +01:00 [Information] The file "/lib/jsoneditor.min.js" was not modified
+2017-06-07 15:32:43.825 +01:00 [Information] The file "/lib/highlight.9.1.0.pack.js" was not modified
+2017-06-07 15:32:43.831 +01:00 [Information] Request finished in 248.1855ms 304 application/javascript
+2017-06-07 15:32:43.867 +01:00 [Information] Request finished in 184.7219ms 304 application/javascript
+2017-06-07 15:32:43.872 +01:00 [Information] Request finished in 247.2268ms 304 application/javascript
+2017-06-07 15:32:43.877 +01:00 [Information] Request finished in 329.8806ms 304 application/javascript
+2017-06-07 15:32:43.886 +01:00 [Information] Request finished in 273.2074ms 304 application/javascript
+2017-06-07 15:32:43.887 +01:00 [Information] Request finished in 270.6797ms 304 application/javascript
+2017-06-07 15:32:43.893 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/logo_small.png  
+2017-06-07 15:32:43.896 +01:00 [Information] The file "/images/logo_small.png" was not modified
+2017-06-07 15:32:43.901 +01:00 [Information] Request finished in 8.3261ms 304 image/png
+2017-06-07 15:32:43.907 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/css/print.css  
+2017-06-07 15:32:43.910 +01:00 [Information] The file "/css/print.css" was not modified
+2017-06-07 15:32:43.913 +01:00 [Information] Request finished in 7.9585ms 304 text/css
+2017-06-07 15:32:43.961 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/v1/swagger.json  
+2017-06-07 15:32:43.970 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-16x16.png  
+2017-06-07 15:32:43.977 +01:00 [Information] Sending file. Request path: '"/images/favicon-16x16.png"'. Physical path: '"N/A"'
+2017-06-07 15:32:43.997 +01:00 [Information] Request finished in 27.8668ms 200 image/png
+2017-06-07 15:32:43.999 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/favicon-32x32.png  
+2017-06-07 15:32:44.001 +01:00 [Information] The file "/images/favicon-32x32.png" was not modified
+2017-06-07 15:32:44.004 +01:00 [Information] Request finished in 4.6946ms 304 image/png
+2017-06-07 15:32:44.341 +01:00 [Information] Request finished in 380.4111ms 200 application/json
+2017-06-07 15:32:44.591 +01:00 [Information] Request starting HTTP/1.1 GET http://localhost:59004/swagger/ui/images/throbber.gif  
+2017-06-07 15:32:44.598 +01:00 [Information] The file "/images/throbber.gif" was not modified
+2017-06-07 15:32:44.610 +01:00 [Information] Request finished in 21.2677ms 304 image/gif
+2017-06-07 15:32:53.141 +01:00 [Information] Request starting HTTP/1.1 POST http://localhost:59004/api/Inspection/GetFollowUpDates application/json 26
+2017-06-07 15:32:53.441 +01:00 [Information] Executing action method "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" with arguments (["CroydonPestControl.API.Models.FollowUpDatesRequest"]) - ModelState is Invalid
+2017-06-07 15:32:57.977 +01:00 [Information] Calling GetFollowUpDates from InspectionController with request : FollowUpDatesRequest { InspectionId: 0, Pests: [0] }
+2017-06-07 15:33:40.545 +01:00 [Information] Executing HttpStatusCodeResult, setting HTTP status code 400
+2017-06-07 15:33:40.557 +01:00 [Information] Executed action "CroydonPestControl.API.Controllers.InspectionController.GetFollowUpDates (CroydonPestControl.API)" in 47344.4ms
+2017-06-07 15:33:40.561 +01:00 [Information] Request finished in 47421.2083ms 400 
