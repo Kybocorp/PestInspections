@@ -6,8 +6,11 @@ namespace CroydonPestControl.Infrastructure.Interfaces
 {
     public interface IBlockCycleRepository
     {
-        Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest addBlockCycleRequest);
+        Task<int> AddBlockCycleAsync(AddBlockCycleRequest addBlockCycleRequest);
         Task<bool> AddBlocksAsync(string requestXml);
         Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync();
+        Task<IEnumerable<Block>> GetBlocksByBlockCycleIdAsync(int blockCycleId);
+        Task<int> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request);
+        Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId);
     }
 }

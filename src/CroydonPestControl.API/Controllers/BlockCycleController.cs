@@ -40,15 +40,13 @@ namespace CroydonPestControl.API.Controllers
         /// <summary>
         /// Add BlockCycle
         /// </summary>
-        /// <returns>The New BlockCycle object created</returns>
+        /// <returns>The Newly BlockCycle Id created</returns>
         [HttpPost]
         public async Task<IActionResult> Add([FromBody]AddBlockCycleRequest request)
         {
             _logger.LogInformation("Calling Add from BlockCycleController with request : {@0}", request);
             if (!ModelState.IsValid) return BadRequest();
-            var response = await _blockCycleAppService.AddBlockCycleAsync(_mapper.Map<AppServices.Models.AddBlockCycleRequest>(request));
-            if (response==null) return NotFound();
-            return Ok(response);
+            return Ok(await _blockCycleAppService.AddBlockCycleAsync(_mapper.Map<AppServices.Models.AddBlockCycleRequest>(request)));
         }
 
         /// <summary>

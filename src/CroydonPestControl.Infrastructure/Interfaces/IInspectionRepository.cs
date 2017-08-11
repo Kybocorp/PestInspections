@@ -14,5 +14,6 @@ namespace CroydonPestControl.Infrastructure.Interfaces
         Task<IEnumerable<Officer>> GetAllOfficersAsync();
         Task<bool> UpdateInspectionNoAccessAsync(UpdateInspectionRequest request);
         Task<IEnumerable<FollowUpDatesResponse>> GetFollowUpDatesAsync(int inspectionId, string pests);
+        Task<List<Inspection>> GetInspectionsByPropertyIdAsync(int propertyId);
     }
 }

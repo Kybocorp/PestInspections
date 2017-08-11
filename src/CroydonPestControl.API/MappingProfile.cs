@@ -19,6 +19,10 @@ namespace CroydonPestControl.API
             CreateMap<AppServices.Models.AddBlockCycleRequest, Models.AddBlockCycleRequest>().ReverseMap();
             CreateMap<Infrastructure.Models.AddBlockCycleRequest, AppServices.Models.AddBlockCycleRequest>().ReverseMap();
             CreateMap<AppServices.Models.BlockCycle, Infrastructure.Models.BlockCycle>().ReverseMap();
+            CreateMap<AppServices.Models.Block, Infrastructure.Models.Block>().ReverseMap();
+            CreateMap<AppServices.Models.AddBlockCycleRequest, Infrastructure.Models.AddBlockCycleRequest>().ReverseMap();
+            CreateMap<AppServices.Models.AddBlockToBlockCycleRequest, Infrastructure.Models.AddBlockToBlockCycleRequest>().ReverseMap();
+            CreateMap<AppServices.Models.Property, Infrastructure.Models.Property>().ReverseMap();
         }
     }
 }

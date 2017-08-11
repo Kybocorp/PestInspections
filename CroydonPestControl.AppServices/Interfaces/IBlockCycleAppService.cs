@@ -6,7 +6,7 @@ namespace CroydonPestControl.AppServices.Interfaces
 {
     public interface IBlockCycleAppService
     {
-        Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest request);
+        Task<int> AddBlockCycleAsync(AddBlockCycleRequest request);
         Task<bool> AddBlocksAsync(string requestXml);
         Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync();
     }

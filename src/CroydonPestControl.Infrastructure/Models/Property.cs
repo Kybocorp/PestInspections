@@ -1,9 +1,7 @@
 ﻿using CroydonPestControl.Core.Models;
-using CroydonPestControl.Infrastructure.Models;
-using System;
 using System.Collections.Generic;
 
-namespace CroydonPestControl.AppServices.Models
+namespace CroydonPestControl.Infrastructure.Models
 {
     public class Property
     {

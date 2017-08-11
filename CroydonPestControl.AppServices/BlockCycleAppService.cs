@@ -19,9 +19,9 @@ namespace CroydonPestControl.AppServices
             _mapper = mapper;
         }
 
-        public async Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest request)
+        public async Task<int> AddBlockCycleAsync(AddBlockCycleRequest request)
         {
-            return _mapper.Map<BlockCycle>(await _blockCycleRepository.AddBlockCycleAsync(_mapper.Map<Infrastructure.Models.AddBlockCycleRequest>(request)));
+            return await _blockCycleRepository.AddBlockCycleAsync(_mapper.Map<Infrastructure.Models.AddBlockCycleRequest>(request));
         }
         public async Task<bool> AddBlocksAsync(string requestXml)
         {
