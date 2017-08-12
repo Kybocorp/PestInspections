@@ -8,6 +8,6 @@ namespace CroydonPestControl.AppServices.Interfaces
     {
         Task<IEnumerable<Block>> GetAllBlocksAsync();
         Task<IEnumerable<Block>> GetBlocksByBlockCycleIdAsync(int blockCycleId);
-        Task<int> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request);
+        Task<Block> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request);
     }
 }

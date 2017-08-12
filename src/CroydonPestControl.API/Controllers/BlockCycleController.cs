@@ -50,16 +50,16 @@ namespace CroydonPestControl.API.Controllers
         }
 
         /// <summary>
-        /// Add Blocks to BlockCycle
+        /// Assign Blocks  ToBlockCycle
         /// </summary>
         /// <returns>200 status code</returns>
         [HttpPost]
-        public async Task<IActionResult> AddBlocks([FromBody]AddBlocksRequest request)
+        public async Task<IActionResult> AssignBlocksToBlockCycle([FromBody]AddBlocksRequest request)
         {
-            _logger.LogInformation("Calling Add from BlockCycleController with request : {@0}", request);
+            _logger.LogInformation("Calling AssignBlocksToBlockCycle from BlockCycleController with request : {@0}", request);
             if (!ModelState.IsValid) return BadRequest();
             var requestXml = _xmlHelper.ConvertToXml(request);
-            if (!await _blockCycleAppService.AddBlocksAsync(requestXml)) return NotFound();
+            if (!await _blockCycleAppService.AssignBlocksToBlockCycleAsync(requestXml)) return NotFound();
             return Ok();
         }
 

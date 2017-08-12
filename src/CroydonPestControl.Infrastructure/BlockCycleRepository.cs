@@ -19,7 +19,7 @@ namespace CroydonPestControl.Infrastructure
             _logger = logger;
         }
 
-        public async Task<int> AddBlockCycleAsync(AddBlockCycleRequest addBlockCycleRequest)
+        public async Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest addBlockCycleRequest)
         {
             try
             {
@@ -32,7 +32,7 @@ namespace CroydonPestControl.Infrastructure
 
                 return await WithConnection(async c =>
                 {
-                    return await c.ExecuteAsync("BlockCycle.AddBlockCycle", param, commandType: CommandType.StoredProcedure);
+                    return await c.ExecuteScalarAsync<BlockCycle>("BlockCycle.AddBlockCycle", param, commandType: CommandType.StoredProcedure);
                 });
             }
             catch (Exception ex)
@@ -42,12 +42,28 @@ namespace CroydonPestControl.Infrastructure
             }
         }
 
-        public Task<bool> AddBlocksAsync(string requestXml)
+        public async Task<bool> AssignBlocksToBlockCycleAsync(string requestXml)
         {
-            throw new NotImplementedException();
+            try
+            {
+                _logger.LogInformation($"Calling stored procedure BlockCycle.UpdateBlockCycleBlocks with requestXml:{requestXml}");
+                var param = new DynamicParameters();
+                param.Add("BlockList", requestXml, dbType: DbType.Xml);
+                param.Add("Result", dbType: DbType.Boolean, direction: ParameterDirection.Output);
+                return await WithConnection(async c =>
+                {
+                    await c.ExecuteAsync("BlockCycle.UpdateBlockCycleBlocks", param, commandType: CommandType.StoredProcedure);
+                    return param.Get<bool>("@Result");
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                throw new Exception(ex.Message);
+            }
         }
 
-        public async Task<int> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request)
+        public async Task<Block> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request)
         {
             try
             {
@@ -57,11 +73,11 @@ namespace CroydonPestControl.Infrastructure
                 param.Add("StartDate", request.StartDate, dbType: DbType.DateTime);
 
 
-                _logger.LogInformation($"Calling stored procedure BlockCycle.AddBlockCycle with Parameters:[StartDate: {request.StartDate}, BlockCycleId:{request.BlockCycleId}, BlockId:{request.BlockId}");
+                _logger.LogInformation($"Calling stored procedure [BlockCycle].[AddBlockToBlockCycle] with Parameters:[StartDate: {request.StartDate}, BlockCycleId:{request.BlockCycleId}, BlockId:{request.BlockId}");
 
                 return await WithConnection(async c =>
                 {
-                    return await c.ExecuteAsync("BlockCycle.AddBlockToBlockCycle", param, commandType: CommandType.StoredProcedure);
+                    return await c.ExecuteScalarAsync<Block>("BlockCycle.AddBlockToBlockCycle", param, commandType: CommandType.StoredProcedure);
                 });
             }
             catch (Exception ex)
