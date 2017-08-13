@@ -2,6 +2,7 @@
 using CroydonPestControl.API.Controllers.Models;
 using CroydonPestControl.API.Models;
 using CroydonPestControl.AppServices.Interfaces;
+using CroydonPestControl.AppServices.Models;
 using CroydonPestControl.Core.Helpers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -46,7 +47,7 @@ namespace CroydonPestControl.API.Controllers
         {
             _logger.LogInformation("Calling Add from BlockCycleController with request : {@0}", request);
             if (!ModelState.IsValid) return BadRequest();
-            return Ok(await _blockCycleAppService.AddBlockCycleAsync(_mapper.Map<AppServices.Models.AddBlockCycleRequest>(request)));
+            return Ok(await _blockCycleAppService.AddBlockCycleAsync(_mapper.Map<AddBlockCycleRequest>(request)));
         }
 
         /// <summary>
@@ -63,6 +64,31 @@ namespace CroydonPestControl.API.Controllers
             return Ok();
         }
 
-       
+        /// <summary>
+        /// Update BlockCycle
+        /// </summary>
+        /// <returns></returns>
+        [HttpPut]
+        public async Task<IActionResult> UpdateBlockCycle([FromBody]BlockCycle request)
+        {
+            _logger.LogInformation("Calling UpdateBlockCycle from BlockCycleController with request : {@0}", request);
+            if (!ModelState.IsValid) return BadRequest();
+            await _blockCycleAppService.UpdateBlockCycleAsync(request);
+            return Ok();
+        }
+
+        /// <summary>
+        /// Update Block Cycle Property
+        /// </summary>
+        /// <returns></returns>
+        [HttpPost]
+        public async Task<IActionResult> UpdateBlockCycleProperty([FromBody]UpdateBlockCyclePropertyRequest request)
+        {
+            _logger.LogInformation("Calling UpdateBlockCycleProperty from BlockCycleController with request : {@0}", request);
+            if (!ModelState.IsValid) return BadRequest();
+            await _blockCycleAppService.UpdateBlockCyclePropertyAsync(request);
+            return Ok();
+        }
+
     }
 }

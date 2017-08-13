@@ -68,6 +68,8 @@ namespace CroydonPestControl.API
             services.AddTransient<IAdminAppService, AdminAppService>();
             services.AddTransient<IConfigurationsAppService, ConfigurationsAppService>();
             services.AddTransient<IBlockCycleAppService, BlockCycleAppService>();
+            services.AddTransient<IBlocksAppService, BlocksAppService>();
+            services.AddTransient<IPropertiesAppService, PropertiesAppService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline

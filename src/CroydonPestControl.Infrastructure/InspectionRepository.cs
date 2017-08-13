@@ -190,23 +190,20 @@ namespace CroydonPestControl.Infrastructure
            
         }
 
-        public async Task<List<Inspection>> GetInspectionsByPropertyIdAsync(int propertyId)
+        public async Task<IEnumerable<Inspection>> GetInspectionsByPropertyIdAsync(int propertyId)
         {
             try
             {
                 var param = new DynamicParameters();
                 param.Add("PropertyId", propertyId, dbType: DbType.Int32);
-                param.Add("Inspections", dbType: DbType.Xml, direction: ParameterDirection.Output);
 
                 _logger.LogInformation("Calling stored procedure BlockCycle.GetInspectionsByPropertyId with propertyId:  {0}", propertyId);
 
-                var result = await WithConnection(async c =>
+                return await WithConnection(async c =>
                 {
-                    await c.ExecuteAsync("BlockCycle.GetInspectionsByPropertyId", param, commandType: CommandType.StoredProcedure);
-                    return param.Get<string>("@Inspections");
+                    return await c.QueryAsync<Inspection>("BlockCycle.GetInspectionsByPropertyId", param, commandType: CommandType.StoredProcedure);
                 });
 
-                return _xmlHelper.ConvertFromXml<List<Inspection>>(result);
             }
             catch (Exception ex)
             {

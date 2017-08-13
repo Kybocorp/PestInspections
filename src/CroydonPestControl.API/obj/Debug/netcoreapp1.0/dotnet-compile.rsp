@@ -135,6 +135,7 @@
 --reference:C:\Users\Anis\.nuget\packages\System.Globalization.Calendars\4.3.0\ref\netstandard1.3\System.Globalization.Calendars.dll
 --reference:C:\Users\Anis\.nuget\packages\System.Globalization.Extensions\4.3.0\ref\netstandard1.3\System.Globalization.Extensions.dll
 --reference:C:\Users\Anis\.nuget\packages\System.IdentityModel.Tokens.Jwt\5.0.0\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll
+--reference:C:\Users\Anis\.nuget\packages\System.Interactive.Async\3.0.0\lib\netstandard1.0\System.Interactive.Async.dll
 --reference:C:\Users\Anis\.nuget\packages\System.IO\4.3.0\ref\netstandard1.5\System.IO.dll
 --reference:C:\Users\Anis\.nuget\packages\System.IO.Compression\4.3.0\ref\netstandard1.3\System.IO.Compression.dll
 --reference:C:\Users\Anis\.nuget\packages\System.IO.Compression.ZipFile\4.3.0\ref\netstandard1.3\System.IO.Compression.ZipFile.dll
@@ -217,7 +218,6 @@ C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Controllers\BlocksC
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Controllers\ConfigurationsController.cs
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Controllers\InspectionController.cs
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Controllers\PropertiesController.cs
-C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Models\AddBlockCycleRequest.cs
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Models\AddBlocksRequest.cs
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Models\Block.cs
 C:\Users\Anis\Dev\PestInspections\src\CroydonPestControl.API\Models\Dictionary.cs

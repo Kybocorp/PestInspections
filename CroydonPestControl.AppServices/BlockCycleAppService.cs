@@ -32,5 +32,15 @@ namespace CroydonPestControl.AppServices
         {
             return _mapper.Map<IEnumerable<BlockCycle>>(await _blockCycleRepository.GetBlockCyclesAsync());
         }
+
+        public async Task UpdateBlockCycleAsync(BlockCycle blockCycle)
+        {
+            await _blockCycleRepository.UpdateBlockCycleAsync(_mapper.Map<Infrastructure.Models.BlockCycle>(blockCycle));
+        }
+
+        public async Task UpdateBlockCyclePropertyAsync(UpdateBlockCyclePropertyRequest request)
+        {
+            await _blockCycleRepository.UpdateBlockCyclePropertyAsync(_mapper.Map<Infrastructure.Models.UpdateBlockCyclePropertyRequest>(request));
+        }
     }
 }

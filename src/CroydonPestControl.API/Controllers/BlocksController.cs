@@ -7,7 +7,7 @@ using CroydonPestControl.AppServices.Models;
 
 namespace CroydonPestControl.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class BlocksController : Controller
     {
         private readonly IBlocksAppService _blocksAppService;
@@ -23,7 +23,7 @@ namespace CroydonPestControl.API.Controllers
         /// Get Blocks by Block Cycle Id
         /// </summary>
         /// <returns>list of Block objects</returns>
-        [HttpGet]
+        [HttpGet("{blockCycleId}")]
         public async Task<IActionResult> Get(int blockCycleId)
         {
             _logger.LogInformation("Calling Getfrom BlocksController");

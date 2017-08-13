@@ -11,6 +11,8 @@ namespace CroydonPestControl.Infrastructure.Interfaces
         Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync();
         Task<IEnumerable<Block>> GetBlocksByBlockCycleIdAsync(int blockCycleId);
         Task<Block> AddBlockToBlockCycleAsync(AddBlockToBlockCycleRequest request);
-        Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId);
+        Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId,int blockCycleId);
+        Task UpdateBlockCycleAsync(BlockCycle blockCycle);
+        Task UpdateBlockCyclePropertyAsync(UpdateBlockCyclePropertyRequest updateBlockCyclePropertyRequest);
     }
 }

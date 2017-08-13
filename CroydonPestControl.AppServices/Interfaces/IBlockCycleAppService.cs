@@ -9,5 +9,7 @@ namespace CroydonPestControl.AppServices.Interfaces
         Task<BlockCycle> AddBlockCycleAsync(AddBlockCycleRequest request);
         Task<bool> AssignBlocksToBlockCycleAsync(string requestXml);
         Task<IEnumerable<BlockCycle>> GetBlockCyclesAsync();
+        Task UpdateBlockCycleAsync(BlockCycle blockCycle);
+        Task UpdateBlockCyclePropertyAsync(UpdateBlockCyclePropertyRequest request);
     }
 }

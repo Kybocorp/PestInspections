@@ -22,9 +22,9 @@ namespace CroydonPestControl.AppServices
             _inspectionRepository = inspectionRepository;
             _mapper = mapper;
         }
-        public async Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId)
+        public async Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId,int blockCycleId)
         {
-            return _mapper.Map<IEnumerable<Property>>(await _blockCycleRepository.GetPropertiesByBlockIdAsync(blockId));
+            return _mapper.Map<IEnumerable<Property>>(await _blockCycleRepository.GetPropertiesByBlockIdAsync(blockId, blockCycleId));
         }
 
         public async Task<IEnumerable<InspectionViewModel>> GetInspectionsByPropertyIdAsync(int propertyId)

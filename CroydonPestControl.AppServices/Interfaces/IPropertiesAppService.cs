@@ -6,7 +6,7 @@ namespace CroydonPestControl.AppServices.Interfaces
 {
     public interface IPropertiesAppService
     {
-        Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId);
+        Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId,int blockCycleId);
         Task<IEnumerable<InspectionViewModel>> GetInspectionsByPropertyIdAsync(int propertyId);
     }
 }

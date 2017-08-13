@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Dapper;
 using System.Data;
+using System.Linq;
 
 namespace CroydonPestControl.Infrastructure
 {
@@ -30,10 +31,11 @@ namespace CroydonPestControl.Infrastructure
 
                 _logger.LogInformation($"Calling stored procedure BlockCycle.AddBlockCycle with Parameters:[StartDate: {addBlockCycleRequest.StartDate}, EndDate:{addBlockCycleRequest.EndDate}");
 
-                return await WithConnection(async c =>
+                var blockCycle = await WithConnection(async c =>
                 {
-                    return await c.ExecuteScalarAsync<BlockCycle>("BlockCycle.AddBlockCycle", param, commandType: CommandType.StoredProcedure);
+                    return await c.QueryAsync<BlockCycle>("BlockCycle.AddBlockCycle", param, commandType: CommandType.StoredProcedure);
                 });
+                return blockCycle.FirstOrDefault();
             }
             catch (Exception ex)
             {
@@ -94,7 +96,7 @@ namespace CroydonPestControl.Infrastructure
                 _logger.LogInformation("Calling stored procedure dbo.GetBlockCyclesAsync ");
                 return await WithConnection(async c =>
                 {
-                    return await c.QueryAsync<BlockCycle>("dbo.GetBlockCycles", commandType: CommandType.StoredProcedure);
+                    return await c.QueryAsync<BlockCycle>("BlockCycle.GetBlockCycles", commandType: CommandType.StoredProcedure);
                 });
             }
             catch (Exception ex)
@@ -114,7 +116,7 @@ namespace CroydonPestControl.Infrastructure
                 _logger.LogInformation($"Calling stored procedure [BlockCycle].[GetBlocksByBlockCycleId] with blockCycleId : {blockCycleId}");
                 return await WithConnection(async c =>
                 {
-                    return await c.QueryAsync<Block>("BlockCycle.GetBlocksByBlockCycleId", commandType: CommandType.StoredProcedure);
+                    return await c.QueryAsync<Block>("BlockCycle.GetBlocksByBlockCycleId", param, commandType: CommandType.StoredProcedure);
                 });
             }
             catch (Exception ex)
@@ -124,17 +126,68 @@ namespace CroydonPestControl.Infrastructure
             }
         }
 
-        public async Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId)
+        public async Task<IEnumerable<Property>> GetPropertiesByBlockIdAsync(int blockId, int blockCycleId)
         {
             try
             {
                 var param = new DynamicParameters();
                 param.Add("BlockId", blockId, dbType: DbType.Int32);
+                param.Add("BlockCycleId", blockCycleId, dbType: DbType.Int32);
+
 
                 _logger.LogInformation($"Calling stored procedure [BlockCycle].[GetPropertiesByBlockId] with blockId : {blockId}");
                 return await WithConnection(async c =>
                 {
-                    return await c.QueryAsync<Property>("BlockCycle.GetPropertiesByBlockId", commandType: CommandType.StoredProcedure);
+                    return await c.QueryAsync<Property>("BlockCycle.GetPropertiesByBlockId",param, commandType: CommandType.StoredProcedure);
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task UpdateBlockCycleAsync(BlockCycle blockCycle)
+        {
+            try
+            {
+                var param = new DynamicParameters();
+                param.Add("BlockCycleId", blockCycle.BlockCycleId, dbType: DbType.Int32);
+                param.Add("StartDate", blockCycle.StartDate, dbType: DbType.DateTime);
+                param.Add("EndDate", blockCycle.EndDate, dbType: DbType.DateTime);
+                param.Add("StatusId", blockCycle.StatusId, dbType: DbType.Int32);
+
+                _logger.LogInformation("Calling stored procedure [BlockCycle].[UpdateBlockCycle] with blockCycle : {@0}", blockCycle);
+                await WithConnection(async c =>
+                {
+                    return await c.ExecuteAsync("BlockCycle.UpdateBlockCycle",param, commandType: CommandType.StoredProcedure);
+                });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.Message);
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public async Task UpdateBlockCyclePropertyAsync(UpdateBlockCyclePropertyRequest updateBlockCyclePropertyRequest)
+        {
+            try
+            {
+                var param = new DynamicParameters();
+                param.Add("BlockCycleId", updateBlockCyclePropertyRequest.BlockCycleId, dbType: DbType.Int32);
+                param.Add("PropertyId", updateBlockCyclePropertyRequest.PropertyId, dbType: DbType.Int32);
+                param.Add("StatusId", updateBlockCyclePropertyRequest.StatusId, dbType: DbType.Int32);
+                param.Add("AmPm", updateBlockCyclePropertyRequest.AmPm, dbType: DbType.String);
+                param.Add("NextInspectionDate", updateBlockCyclePropertyRequest.NextInspectionDate, dbType: DbType.DateTime);
+                param.Add("Comments", updateBlockCyclePropertyRequest.Comments, dbType: DbType.String);
+                param.Add("LastUpdatedBy", updateBlockCyclePropertyRequest.LastUpdatedBy, dbType: DbType.Int32);
+
+                _logger.LogInformation("Calling stored procedure [BlockCycle].[UpdateBlockCycleProperty] with blockCycle : {@0}", updateBlockCyclePropertyRequest);
+                await WithConnection(async c =>
+                {
+                    return await c.ExecuteAsync("BlockCycle.UpdateBlockCycleProperty", commandType: CommandType.StoredProcedure);
                 });
             }
             catch (Exception ex)

@@ -21,11 +21,11 @@ namespace CroydonPestControl.API.Controllers
         /// Get All Properties by blockId
         /// </summary>
         /// <returns>list of Property object</returns>
-        [HttpGet("{blockId}")]
-        public async Task<IActionResult> GetByBlockId(int blockId)
+        [HttpGet("{blockId}&{blockCycleId}")]
+        public async Task<IActionResult> GetByBlockId(int blockId,int blockCycleId)
         {
             _logger.LogInformation("Calling Get from PropertiesController");
-            return Ok(await _propertiesAppService.GetPropertiesByBlockIdAsync(blockId));
+            return Ok(await _propertiesAppService.GetPropertiesByBlockIdAsync(blockId, blockCycleId));
         }
 
         /// <summary>
